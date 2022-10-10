@@ -1,0 +1,31 @@
+body
+{
+    background: black;
+}
+h2
+{
+    font-family: "Comic Sans MS", "Calibri", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: turquoise;
+}
+
+h5
+{
+    font-family: "Corbel Light", "Calibri Light", sans-serif;
+    color: snow;
+}
+p
+{
+
+    font-family: "Corbel Light", "Calibri Light", sans-serif;
+    color: snow;
+    font-size: 17px;
+}
+
+div
+{
+    font-family: "Lucida Console", "Microsoft Himalaya", sans-serif;
+    color: snow;
+    font-size: 15px;
+}

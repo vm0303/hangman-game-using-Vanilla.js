@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cssForHangman.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Hangman!</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Video Game Hangman!</h2>
+    <h5 style="color: #3f3ff6" align="center">Made by Vishal Madhav</h5>
+    <p> Hello and welcome to my game, <i>Video Game Hangman! </i> The rules are very simple!
+        &nbspYou have to guess the name of a video game by using the buttons of letters provided
+        to you in order to guess the word for that random question.</p>
+
+    <p style="color: #ff2c1b" > But be careful!&nbsp You only get 10 guesses to guess the answer. If all of those
+        10 guesses are wrong, you will lose and game is over!
+    </p>
+    <h5><b>Good luck!!</b></h5>
+    <br>
+    <div class="text-left">
+
+    </div>
+
+</div>
+<div class="container">
+    <img title="When the image changes, it keeps track of the number of wrong guesses you made. So watch out! (Photos by Oligalma)"
+         id='hangmanPic' src="./images/0.jpg" alt="Initial picture of Hangman" width="200" height="250">
+    <div class="float-right" style="font-size: 14px">Number of wrong guesses used: <span id='wrongGuesses'
+    >0</span> of <span id='totalWrongGuesses'></span></div>
+    <p id="text" style="font-size: 25px">Guess the name of the video game :</p>
+    <p id="wordChosen" style="font-size: 20px">The video game title that is going to be guessed will go here</p>
+    <div id="keyboard"></div>
+    <p id="aLittleNote">NOTE: The button without any letter will represent a space in the video game title</p>
+    <button style=display:inline type="button" class="waves-effect waves-light blue btn"
+            title="Clicking this will give you a new word" onClick="reset()">New Word</button>
+    <footer>
+        <p>
+        <footer>
+            <p title="I put a copyright here so you would know where I got most of my code from while doing the hangman program">
+                &copy; Copyright 2021<a target="_blank" href="https://www.youtube.com/watch?v=dgvyE1sJS3Y">
+                Simon Jsuh</a>
+                Edited and re-created by Vishal Madhav
+            </p>
+        </footer>
+    </footer>
+
+</div>
+<script src='scriptForHangman.js'></script>
+
+
+
+
+</body>
+</html>
