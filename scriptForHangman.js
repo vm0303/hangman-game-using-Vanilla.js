@@ -18,7 +18,10 @@ let video_game_titles = [
     "DOOM",
     "YAKUZA LIKE A DRAGON",
     "UNCHARTED",
-    "FORZA HORIZON"
+    "FORZA HORIZON",
+    "LEGENDS OF ZELDA",
+    "GRAND THEFT AUTO",
+    "CONTROL"
 ];
 
 let wordToGuess = " ";
