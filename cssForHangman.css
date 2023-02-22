@@ -1,6 +1,7 @@
 body
 {
     background: black;
+
 }
 h2
 {
@@ -28,4 +29,12 @@ div
     font-family: "Lucida Console", "Microsoft Himalaya", sans-serif;
     color: snow;
     font-size: 15px;
+}
+footer
+{
+    background-color: #313030;
+
+    text-align: center;
+    margin: 20px;
+    position: relative;
 }
